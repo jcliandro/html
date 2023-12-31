@@ -1,0 +1,86 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:wght@207;300;400;600&family=Oswald:wght@500&family=Poppins:wght@300&display=swap');
+
+/*font-family: 'Krona One', sans-serif;
+font-family: 'Montserrat', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    height: 100vh;
+    background-color: rgb(255, 255, 255);
+    padding: 10%;
+    
+}
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    padding-left: 30%;
+    padding-right: 30%;
+    color: aliceblue;
+    
+    
+}
+
+
+.chamada{
+    background-color: rgb(80, 154, 244);
+    border-radius: 15px 15px 0 0;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.espaco__email{
+    margin-top: 15px;
+}
+
+.envio__mensagem{
+    background-color: rgb(149, 149, 149);
+    border-radius: 0 0 15px 15px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.envio__mensagem__input{
+    display: flex;
+    flex-direction: column;
+    padding: 0 40%;
+}
+
+input {
+    padding: 7px;
+    border: 1px solid rgb(152, 152, 152);
+    border-radius: 5px;
+    background-color: rgb(232, 232, 232);
+}
+
+.botao1{
+    background-color: rgb(232, 232, 232);
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(99, 99, 99);
+    border: 1px solid white;
+    padding: 6px 30px;
+    border-radius: 5px;
+    margin: 0px 0px 20px 50px;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.botao1:hover{
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border: 1px solid rgb(96, 96, 96);
+    padding: 8px 33px;
+    border-radius: 5px;
+    
+    
+}

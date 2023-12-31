@@ -1,0 +1,128 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Montserrat&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/*--------------------------------CABEÇALHO------------------------------------------------------------------- */
+
+
+.cabecalho{
+    display: flex;
+    margin: 5%;
+    
+    
+
+    
+}
+
+.cabecalho__link_linha li{
+    display: inline;
+    padding: 10px
+    
+}
+
+nav{
+    margin-top: 25px;
+    margin-left: 10%;
+}
+
+.link{
+    text-decoration: none;
+    color: rgb(36, 36, 36);
+    padding: 10px 15px;
+    background-color: rgb(131, 170, 214);
+    border-radius: 6px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+}
+
+.link__especial{
+    text-decoration: none;
+    background-color: rgb(93, 228, 104);
+    color: rgb(53, 52, 51);
+    padding: 18px 20px;
+    border-radius: 20px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cabecalho__imagem{
+    width: 20%;
+}
+
+/*--------------------------------CORPO------------------------------------------------------------------- */
+
+body{
+    background-color: #EFEFEF;
+    color: rgb(34, 34, 34);
+    box-sizing: border-box;
+    height: 100vh; 
+    margin-left: 10%;
+    margin-right: 10%;
+       
+}
+
+
+.imagem__principal{
+    width: 85%;
+    border-radius: 8px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 6%;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    margin-bottom: 20px;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+p{
+    font-family: 'Lato', sans-serif;
+    margin-bottom: 30px;
+}
+
+main{
+    margin: 10%;
+}
+
+.lista__paragrafo{
+    margin: 6%;
+}
+
+/*--------------------------------RODAPÉ------------------------------------------------------------------- */
+footer{
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.em__branco{
+    background-color: rgb(131, 170, 214);
+    color: rgb(131, 170, 214) ;
+    margin-bottom: 50px;
+}
+
+.imagem__rodape{
+    width: 10%;
+}
+
+.secao__rodape{
+    display: flex;
+}
+
+.lista_rodape{
+    text-decoration: none;
+}
+
+.link_rodape{
+    text-decoration: none;
+    margin-left: 10px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(177, 169, 169);
+    color: white;
+    box-sizing: border-box;
+    height: 100vh;
+}
+
+.conteudo{
+    background-color: blue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10%;
+    border: 20px solid white;
+    padding: 50px;
+    
+}
+
+.conteudo-h1{
+    background-color: blueviolet;
+    padding: 50px;
+    border: 50px solid red;
+    margin: 50px;
+}
+
+.conteudo-h2{
+    background-color: brown;
+    padding: 50px;
+    border: 50px solid red;
+    margin: 50px;
+}
+
+.conteudo-paragrafo{
+    background-color: chartreuse;
+    padding: 100px;
+    border: 50px solid white;
+    margin: 50px;
+}

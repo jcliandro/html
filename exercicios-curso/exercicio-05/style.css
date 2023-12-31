@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    color: rgb(107, 105, 105);
+}
+
+body{
+    background-color: black;
+    color: white;
+}
+
+.titulo-destaque{
+    color: #22D4FD;
+}
+
+.paragrafo{
+    color: aquamarine;
+    font-size: 20px;
+}
+
+span{
+    color: #22D4FD ;
+}
+
+a{
+    border: 1px solid #22D4FD;
+    background-color: #22D4FD;
+    padding: 10px;
+    color: black;
+}
+
+footer{
+    color: rgb(107, 105, 105);
+}
+
