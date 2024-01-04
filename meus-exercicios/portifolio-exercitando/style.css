@@ -65,6 +65,8 @@ a{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    background-color: rgb(240, 240, 240);
+    color: rgb(72, 72, 72);
 }
 
 .conteudo__apresentacao__titulo{
@@ -87,8 +89,10 @@ h2{
 }
 
 .conteudo__minha__imagem{
-    width: 20%;
-    padding: 50px;
+    width: 70%;
+    padding: 50px 60px 2px 0;
+    opacity: 0.8;
+    
 }
 
 .conteudo__portifolio{
