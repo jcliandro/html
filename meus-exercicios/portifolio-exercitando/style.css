@@ -1,3 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,207;0,300;0,400;0,600;1,300&family=Poppins:wght@300&display=swap');
+
+/*font-family: 'Montserrat', sans-serif;
+font-family: 'Poppins', sans-serif;*/
+
+
 *{
     margin: 0;
     padding: 0;
@@ -8,15 +14,100 @@ body{
     height: 100vh;
     color: rgb(43, 43, 43);
     background-color: white;
+    font-family: 'Poppins', sans-serif;
 }
 
 /*HEADER------------------------*/
 
+.cabecalho__logotipo{
+    height: 90px;
+    padding: 15px 0 0 150px;
+}
+
 .cabecalho{
     background-color: black;
     color: rgb(201, 201, 201);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
 }
 
-.cabecalho__logo{
-    height: 5%;
+.cabecalho__menu{
+    display: flex;
+    flex-direction: row;
+    padding: 0 150px 0 0;
+    list-style-type: none;
+    
+}
+
+.cabecalho__menu__header{
+    padding: 50px;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(185, 185, 185);
+}
+
+.cabecalho__menu__contato{
+    border: 2px solid rgb(150, 150, 150);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(150, 150, 150);
+    color: rgb(237, 237, 237);
+}
+
+
+/*MAIN--------------------------*/
+
+.conteudo__apresentacao{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.conteudo__apresentacao__titulo{
+    padding: 100px;
+    font-size: 30px;
+}
+h1{
+    color: blue;
+    font-size: 40px;
+    font-family: 'Montserrat', sans-serif
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif
+}
+
+.conteudo__apresentacao__subtitulo{
+    padding: 100px;
+    font-size: 20px;
+}
+
+.conteudo__minha__imagem{
+    width: 20%;
+    padding: 50px;
+}
+
+.conteudo__portifolio{
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(161, 214, 255);
+    justify-content: space-around;
+    font-size: 30px;
+}
+
+.conteudo__portifolio__apresentacao{
+    padding: 100px;
+    color: rgb(0, 58, 109);
+}
+
+/*FOOTER-------------------------*/
+
+.footer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }

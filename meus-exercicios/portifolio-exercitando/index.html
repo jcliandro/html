@@ -1,45 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Document</title>
+    <title>JL</title>
 </head>
 <body>
     <header class="cabecalho">
         <img src="logo_jl.png" alt="logo jl" class="cabecalho__logotipo">
         <ul class="cabecalho__menu">
-            <li>Sobre</li>
-            <li>Book</li>
-            <li>Portifolio</li>
-            <li>Contato</li>
+            <li class="cabecalho__menu__header"><a href="xxx">Sobre</a></li>
+            <li class="cabecalho__menu__header"><a href="xxx">Book</a></li>
+            <li class="cabecalho__menu__header"><a href="xxx">Portifolio</a></li>
+            <li class="cabecalho__menu__header"><a href="xxx" class="cabecalho__menu__contato">Contato</a></li>
         </ul>
     </header>
 
-    <main>
-        <h1>designer</h1>
-        <p>Designer de produto especializado em UI design e sistemas de design.</p>
-        <img src="imagem.png" alt="Imagem de Jean Carlos">
-        <h2>Programador html</h2>
-        <p>Desenvolvedor front-end que escreve código limpo, elegante e eficiente.</p>
-
-        <section>
-            <p>ALGUNS DOS MEUS ÚLTIMOS TRABALHOS</p>
+    <main class="conteudo">
+        <section class="conteudo__apresentacao">
+            <div class="conteudo__apresentacao__titulo">
+                <h1>designer</h1>
+                <p>Designer de produto especializado em UI design e sistemas de design.</p>
+            </div>
+            
+            <img src="imagem.png" alt="Imagem de Jean Carlos" class="conteudo__minha__imagem">
+            
+            <div class="conteudo__apresentacao__subtitulo">
+                <h2>Programador html</h2>
+                <p>Desenvolvedor front-end que escreve código limpo, elegante e eficiente.</p>
+            </div>
+            
+        </section>
+        
+        <section class="conteudo__portifolio">
+            <p class="conteudo__portifolio__apresentacao">Teste 01</p>
+            <p class="conteudo__portifolio__apresentacao">Teste 02</p>
+            <p class="conteudo__portifolio__apresentacao">Teste 03</p>
         </section>
         
     </main>
 
     <footer>
-        <p>© 2024 Adham Dannaway</p>
-        <p>
-            <ul>
-                <li>Sobre</li>
-                <li>Book</li>
-                <li>Portifolio</li>
-                <li>Contato</li>
-            </ul>
-        </p>
+        <section class="footer">
+            <p class="section__01">
+                Jean Carlos Liandro<br>
+                Fone: (47) 991572489<br>
+                © 2024 Adham Dannaway</p>
+            <p class="section__02">
+                <ul>
+                    <li>Sobre</li>
+                    <li>Book</li>
+                    <li>Portifolio</li>
+                    <li>Contato</li>
+                </ul>
+            </p>
+        </section>
+        
     </footer>
 </body>
 </html>
