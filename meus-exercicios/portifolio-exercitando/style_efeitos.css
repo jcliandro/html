@@ -1,0 +1,15 @@
+.cabecalho__menu__contato:hover{
+    border: 2px solid rgb(237, 237, 237);
+    border-radius: 20px;
+    padding: 10px 30px 10px 30px;
+    background-color: rgb(255, 255, 255);
+    color: rgb(79, 79, 79);
+    transition: .8s;
+}
+
+a:hover{
+    transition: .5s;
+    text-decoration: none;
+    color: rgb(253, 255, 216);
+    
+}

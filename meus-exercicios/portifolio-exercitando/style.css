@@ -48,14 +48,16 @@ body{
 a{
     text-decoration: none;
     color: rgb(185, 185, 185);
+    cursor: pointer;
 }
 
 .cabecalho__menu__contato{
-    border: 2px solid rgb(150, 150, 150);
+    border: 2px solid rgb(107, 107, 107);
     border-radius: 20px;
     padding: 10px 30px 10px 30px;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(107, 107, 107);
     color: rgb(237, 237, 237);
+    cursor: pointer;
 }
 
 
@@ -70,35 +72,36 @@ a{
 }
 
 .conteudo__apresentacao__titulo{
-    padding: 100px;
+    padding: 180px 0 0 150px;
     font-size: 30px;
 }
 h1{
-    color: blue;
+    color: rgb(79, 79, 79);
     font-size: 40px;
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
 }
 
 h2{
-    font-family: 'Montserrat', sans-serif
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(79, 79, 79);
 }
 
 .conteudo__apresentacao__subtitulo{
-    padding: 100px;
+    padding: 180px 160px 0 0;
     font-size: 20px;
 }
 
 .conteudo__minha__imagem{
     width: 70%;
     padding: 50px 60px 2px 0;
-    opacity: 0.8;
+    opacity: 1;
     
 }
 
 .conteudo__portifolio{
     display: flex;
     flex-direction: row;
-    background-color: rgb(161, 214, 255);
+    background-color: rgb(133, 133, 133);
     justify-content: space-around;
     font-size: 30px;
 }
@@ -108,10 +111,28 @@ h2{
     color: rgb(0, 58, 109);
 }
 
+.imagem__html{
+    height: 230px;
+}
+
+.imagem__css{
+    height: 230px;
+}
+
 /*FOOTER-------------------------*/
 
 .footer{
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+
+}
+
+.footer__section__01{
+    margin: 20px;
+}
+
+.lista__rodape{
+    list-style-type: none;
+    padding: 20px;
 }
