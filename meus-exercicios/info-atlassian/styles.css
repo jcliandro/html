@@ -1,0 +1,107 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Roboto:wght@300;500&display=swap');
+
+
+/*
+font-family: 'Quicksand', sans-serif;
+font-family: 'Roboto', sans-serif;
+*/
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    margin: 10% 30% 0% 30%;
+    color: rgb(72, 72, 72);
+    box-sizing: border-box;
+    height: 100vh;
+    font-family: 'Quicksand', sans-serif
+    
+    
+}
+
+header{
+    text-align: center;
+}
+
+/*READER--------------------------------------*/
+
+.logo__cabecalho{
+    height: 40px;
+    padding: 30px;
+}
+
+h1{
+    
+    font-size: 20px;
+    padding: 30px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+h2{
+    padding: 30px;
+}
+
+
+
+/*MAIN---------------------------------------------------------*/
+.conteudo__jira{
+    text-align: center;
+}
+
+.conteudo__profissionais__paragrafo{
+    padding: 60px 0 30px 0;
+}
+
+.conteudo__jira__paragrafo{
+    margin: 30px 0 50px 0;
+}
+
+.conteudo__jira__link{
+    background-color: #0052CC;
+    color: white;
+    text-decoration: none;
+    padding: 20px 35px 20px 35px;
+    border-radius: 3px;  
+    
+}
+
+.imagem__jira{
+    height: 330px;
+}
+
+
+.lista{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 35px 0 35px 0;
+    
+}
+
+.imagem__lista{
+    height: 150px;
+}
+
+
+.rodape{
+    text-align: center;
+    margin: 50px 0 0 0;
+}
+
+.conteudo__2{
+    text-align: center;
+}
+
+.conteudo__2__paragrafo{
+    padding: 10px 0 50px 0;
+}
+
+.rodape__lista{
+    font-size: 14px;
+    margin: 0 0 50px 0;
+}
