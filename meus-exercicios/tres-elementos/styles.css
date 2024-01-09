@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -5,17 +8,44 @@
 
 .conteudo{
     display: flex;
-    align-items: center;
+    align-items: stretch;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 100px;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    
 }
 
 .conteudo__ao__vivo{
     background-color: #1B9C85;
+    padding: 60px;
+    width: 45%;
+    text-align: center;
+    
+    
 }
 
 .conteudo__comunidade{
     background-color: #171616;
+    padding: 50px;
+    width: 45%;
+    text-align: center;
 }
 
 .conteudo__interativa{
     background-color:#1B9C85 ;
+    padding: 50px;
+    width: 45%;
+    text-align: center;
+}
+
+img{
+    height: 130px;
+}
+
+h2{
+    font-size: 35px;
+    margin: 15px;
+    padding: 10px 0 20px 0;
 }
