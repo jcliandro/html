@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Montserrat+Subrayada:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+
+body{
+    height: 100vh;
+    box-sizing: border-box;
+    background-color: rgb(62, 62, 62);
+    color: azure;
+    padding: 10%;
+}
+
+/*cabecalho-------------*/
+.cabecalho{
+    background-color: rgb(255, 196, 124);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2%;
+}
+
+.cabecalho__titulo{
+    color: black;
+    font-family: 'Montserrat Subrayada', sans-serif;
+}
+
+.cabecalho__menu{
+    
+}
+
+.cabecalho__menu__link{
+    text-decoration: none;
+    margin: 30px;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    border: 1px solid rgb(88, 88, 88);
+    border-radius: 7px;
+    padding: 5px 20px 5px 20px;
+
+}
+
+.cabecalho__menu__link:hover{
+    color: rgb(81, 81, 81);
+    transition-duration: 200ms;
+    background-color: rgb(215, 215, 215);
+    border-color: rgb(188, 188, 188);
+}
+
+.rodape{
+    background-color: #22D4fd;
+    color: black;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    padding: 24px;
+    text-align: center;
+}
+
+main{
+    background-color: white;
+    color: black;
+    padding: 10%;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
