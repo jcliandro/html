@@ -22,10 +22,12 @@ body{
 }
 
 .cabecalho__menu__link{
+    text-decoration: none;
     font-family: 'Montserrat', sans-serif;
     font-size: 24px;
     font-weight: 600px;
     color: #22D4FD;
+    
 }
 
 .titulo-destaque{
